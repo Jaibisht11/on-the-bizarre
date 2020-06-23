@@ -1,0 +1,133 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  width:100%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 10px 50px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  
+ 
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+}
+
+
+
+.container {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-image: url("5.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container .inner{
+	position: absolute;
+	width:100%;
+	transform: translate(-50%,-50%);
+	top: 20%;
+	left: 50%;
+}
+
+.container .inner p{
+	text-align: center;
+	font-size: 60px;
+	  text-decoration: underline;
+	  text-decoration-color: cyan;
+	  text-decoration-style: double;
+	color: pink;
+	  text-shadow: 0 0 5px #FF0000;
+	    text-shadow: 0 0 3px #FF0000;
+ word-spacing: 30px;
+   animation: myfirst 5s 2;
+ animation-direction: alternate;
+ font-style: oblique;
+ font-weight: bold;
+}
+
+
+.container .content {
+	float: left;
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  color: #f1f1f1; /* Grey text */
+  width: 50%; /* Full width */
+  /* Some padding */
+  font-size: 17px;
+  font-family: Ink Free;
+  font-weight: bold;
+  background: rgba(0,0,0,0.5);
+  text-align: center;
+  border: 5px solid;
+    border-radius: 5px;
+}
+.container .content2 {
+	float: left;
+ position: absolute;/* Position the background text */
+  bottom: 0;
+right: 0;  /* At the bottom. Use top:0 to append it to the top */
+  color: coral; /* Grey text */
+ float: left; 
+ width: 49%;/* Full width */
+   /* Some padding */
+  font-size: 25px;
+  font-family: Ink Free;
+  font-weight: bold;
+  background: rgba(0,0,0,0.5);
+  text-align: right;
+  border: 5px solid;
+    border-radius: 5px;
+	box-align:right;
+	border-color: white;
+	
+}
+.container .content2 p{
+	font-size: 24px;
+	font-family: Dubai Light;
+	color: blue;
+	text-align: left;
+}
+.container .content2 h1{
+	text-align: left;
+	text-decoration: underline;
+	font-weight: bold;
+	font-style: italics;
+}
+
+footer{
+
+	  position: relative; /* Position the background text */
+  bottom: 0;
+top: 0;  /* At the bottom. Use top:0 to append it to the top */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  /* Some padding */
+  font-size: 14px;
+  font-family: Ink Free;
+  font-weight: bold;
+  background: rgba(0,0,0,0.5);
+  text-align: center;
+  
+}
+	
+	
